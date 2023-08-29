@@ -24,6 +24,19 @@ function WeatherComponent() {
   return (
     <div>
       <h1>Weather in {weather?.name}</h1>
+
+
+      {weather && (
+        <>
+        <h1>Weather in {weather.name}</h1>
+        <p>
+          Temperature: {weather.main.temp}°C
+        </p>
+        <p>
+          Conditions: {weather.weather[0].description}
+        </p>
+        </>
+      )}
     </div>
   );
 }
