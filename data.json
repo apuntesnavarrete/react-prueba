@@ -1,0 +1,37 @@
+{
+    "personas": [
+      {
+        "nombre": "Ana",
+        "edad": 25,
+        "casado": false,
+        "pasatiempos": ["bailar", "viajar"],
+        "direccion": {
+          "calle": "Calle Alegre",
+          "numero": 456,
+          "ciudad": "Ciudad Feliz"
+        }
+      },
+      {
+        "nombre": "Carlos",
+        "edad": 42,
+        "casado": true,
+        "pasatiempos": ["cocinar", "jardinería"],
+        "direccion": {
+          "calle": "Calle Tranquila",
+          "numero": 789,
+          "ciudad": "Ciudad Serena"
+        }
+      },
+      {
+        "nombre": "María",
+        "edad": 30,
+        "casado": true,
+        "pasatiempos": ["pintar", "ver películas"],
+        "direccion": {
+          "calle": "Calle Artística",
+          "numero": 123,
+          "ciudad": "Ciudad Creativa"
+        }
+      }
+    ]
+  }
